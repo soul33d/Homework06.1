@@ -4,7 +4,7 @@ import com.homelearning.abstract_factory.gui.Button;
 import com.homelearning.abstract_factory.gui.Menu;
 import com.homelearning.abstract_factory.gui.Window;
 
-public interface GUIElementsFactory {
+public interface GUIFactory {
     Window newWindow();
     Button newButton();
     Menu newMenu();
