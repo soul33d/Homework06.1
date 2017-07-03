@@ -1,7 +1,9 @@
 package com.homelearning.abstract_factory.gui.windows;
 
-public class Window {
-    void show(){
+import com.homelearning.abstract_factory.gui.Window;
+
+public class WindowWin implements Window {
+    public void show() {
         System.out.println("Windows window is on screen.");
     }
 }
