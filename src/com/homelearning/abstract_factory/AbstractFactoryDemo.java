@@ -18,6 +18,6 @@ public class AbstractFactoryDemo {
         if (osName.contains("Linux")) return new LinuxGUIFactory();
         else if (osName.contains("Mac")) return new MacGUIFactory();
         else if (osName.contains("Win")) return new WindowsGUIFactory();
-        else throw new NotSupportedOSError("There is no GUIFactory for " + osName);
+        else throw new NotSupportedOSError(osName + " is not supported.");
     }
 }
