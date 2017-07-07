@@ -11,6 +11,7 @@ public class MobDirector {
     }
 
     public Mob buildMob(){
+        builder.newMob();
         builder.buildRace();
         builder.buildName();
         builder.buildLevel();

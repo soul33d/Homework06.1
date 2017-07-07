@@ -5,13 +5,18 @@ import com.homelearning.builder.mob.Mob;
 import java.util.Random;
 
 public class AggressiveHumanMobBuilder implements MobBuilder {
-    private Mob mob = new Mob();
+    private Mob mob;
     private String[] names = {"John", "Arthur", "Philip"};
     private Random random = new Random();
     private int level;
 
     public AggressiveHumanMobBuilder(int level) {
         this.level = level;
+    }
+
+    @Override
+    public void newMob() {
+        mob = new Mob();
     }
 
     @Override
