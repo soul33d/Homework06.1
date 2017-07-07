@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.homelearning.creational.abstract_factory</OriginalElement>
+  <nodes>
+    <node x="169.0" y="189.0">com.homelearning.creational.abstract_factory.gui.mac.MenuMac</node>
+    <node x="234.3125000000001" y="0.0">com.homelearning.creational.abstract_factory.gui.Button</node>
+    <node x="1391.4388020833335" y="189.0">com.homelearning.creational.abstract_factory.gui.linux.WindowLinux</node>
+    <node x="768.4388020833334" y="165.0">com.homelearning.creational.abstract_factory.factory.GUIFactory</node>
+    <node x="1053.4388020833335" y="189.0">com.homelearning.creational.abstract_factory.gui.linux.ButtonLinux</node>
+    <node x="674.6666666666667" y="0.0">com.homelearning.creational.abstract_factory.gui.Window</node>
+    <node x="1103.7916666666667" y="338.0">com.homelearning.creational.abstract_factory.factory.LinuxGUIFactory</node>
+    <node x="338.0" y="201.0">com.homelearning.creational.abstract_factory.gui.windows</node>
+    <node x="390.02473958333337" y="491.0">com.homelearning.creational.abstract_factory.AbstractFactoryDemo</node>
+    <node x="553.8763020833334" y="189.0">com.homelearning.creational.abstract_factory.gui.mac.WindowMac</node>
+    <node x="0.0" y="189.0">com.homelearning.creational.abstract_factory.gui.mac.ButtonMac</node>
+    <node x="224.02473958333337" y="338.0">com.homelearning.creational.abstract_factory.factory.MacGUIFactory</node>
+    <node x="1222.4388020833335" y="189.0">com.homelearning.creational.abstract_factory.gui.linux.MenuLinux</node>
+    <node x="509.02473958333337" y="338.0">com.homelearning.creational.abstract_factory.factory.WindowsGUIFactory</node>
+    <node x="1.0247395833332575" y="374.0">com.homelearning.creational.abstract_factory.NotSupportedOSError</node>
+    <node x="403.3125000000001" y="0.0">com.homelearning.creational.abstract_factory.gui.Menu</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.homelearning.creational.abstract_factory.factory.LinuxGUIFactory" target="com.homelearning.creational.abstract_factory.gui.linux.MenuLinux">
+      <point x="33.125" y="-51.5" />
+      <point x="1269.4166666666667" y="318.0" />
+      <point x="1296.9388020833335" y="318.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.AbstractFactoryDemo" target="com.homelearning.creational.abstract_factory.NotSupportedOSError">
+      <point x="-81.75" y="-39.5" />
+      <point x="417.27473958333337" y="471.0" />
+      <point x="102.52473958333326" y="471.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.windows" target="com.homelearning.creational.abstract_factory.gui.Button">
+      <point x="-51.333333333333314" y="-15.5" />
+      <point x="363.6666666666667" y="105.0" />
+      <point x="308.8125000000001" y="105.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.mac.WindowMac" target="com.homelearning.creational.abstract_factory.gui.Window">
+      <point x="0.0" y="-27.5" />
+      <point x="628.3763020833334" y="145.0" />
+      <point x="749.1666666666667" y="145.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.WindowsGUIFactory" target="com.homelearning.creational.abstract_factory.gui.windows">
+      <point x="-66.25" y="-51.5" />
+      <point x="575.2747395833334" y="288.0" />
+      <point x="415.0" y="288.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.AbstractFactoryDemo" target="com.homelearning.creational.abstract_factory.factory.LinuxGUIFactory">
+      <point x="81.75" y="-39.5" />
+      <point x="580.7747395833334" y="471.0" />
+      <point x="1236.2916666666667" y="471.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.linux.WindowLinux" target="com.homelearning.creational.abstract_factory.gui.Window">
+      <point x="0.0" y="-27.5" />
+      <point x="1465.9388020833335" y="75.0" />
+      <point x="798.8333333333334" y="75.0" />
+      <point x="49.66666666666663" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.MacGUIFactory" target="com.homelearning.creational.abstract_factory.gui.mac.MenuMac">
+      <point x="-33.125" y="-51.5" />
+      <point x="323.39973958333337" y="308.0" />
+      <point x="243.5" y="308.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.mac.MenuMac" target="com.homelearning.creational.abstract_factory.gui.Menu">
+      <point x="0.0" y="-27.5" />
+      <point x="243.5" y="115.0" />
+      <point x="428.1458333333334" y="115.0" />
+      <point x="-49.666666666666686" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.windows" target="com.homelearning.creational.abstract_factory.gui.Menu">
+      <point x="0.0" y="-15.5" />
+      <point x="415.0" y="125.0" />
+      <point x="477.8125000000001" y="125.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.WindowsGUIFactory" target="com.homelearning.creational.abstract_factory.factory.GUIFactory">
+      <point x="66.25" y="-51.5" />
+      <point x="707.7747395833334" y="318.0" />
+      <point x="900.9388020833334" y="318.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.LinuxGUIFactory" target="com.homelearning.creational.abstract_factory.gui.linux.ButtonLinux">
+      <point x="-33.125" y="-51.5" />
+      <point x="1203.1666666666667" y="308.0" />
+      <point x="1127.9388020833335" y="308.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.LinuxGUIFactory" target="com.homelearning.creational.abstract_factory.factory.GUIFactory">
+      <point x="-99.375" y="-51.5" />
+      <point x="1136.9166666666667" y="318.0" />
+      <point x="989.2721354166667" y="318.0" />
+      <point x="88.33333333333337" y="51.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.linux.MenuLinux" target="com.homelearning.creational.abstract_factory.gui.Menu">
+      <point x="0.0" y="-27.5" />
+      <point x="1296.9388020833335" y="85.0" />
+      <point x="527.4791666666667" y="85.0" />
+      <point x="49.66666666666663" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.LinuxGUIFactory" target="com.homelearning.creational.abstract_factory.gui.linux.WindowLinux">
+      <point x="99.375" y="-51.5" />
+      <point x="1335.6666666666667" y="318.0" />
+      <point x="1465.9388020833335" y="318.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.MacGUIFactory" target="com.homelearning.creational.abstract_factory.factory.GUIFactory">
+      <point x="99.375" y="-51.5" />
+      <point x="455.89973958333337" y="308.0" />
+      <point x="812.60546875" y="308.0" />
+      <point x="-88.33333333333337" y="51.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.AbstractFactoryDemo" target="com.homelearning.creational.abstract_factory.factory.MacGUIFactory">
+      <point x="-27.25" y="-39.5" />
+      <point x="471.77473958333337" y="461.0" />
+      <point x="356.52473958333337" y="461.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.linux.ButtonLinux" target="com.homelearning.creational.abstract_factory.gui.Button">
+      <point x="0.0" y="-27.5" />
+      <point x="1127.9388020833335" y="95.0" />
+      <point x="358.47916666666674" y="95.0" />
+      <point x="49.66666666666663" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.AbstractFactoryDemo" target="com.homelearning.creational.abstract_factory.factory.WindowsGUIFactory">
+      <point x="27.25" y="-39.5" />
+      <point x="526.2747395833334" y="461.0" />
+      <point x="641.5247395833334" y="461.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.windows" target="com.homelearning.creational.abstract_factory.gui.Window">
+      <point x="51.333333333333314" y="-15.5" />
+      <point x="466.3333333333333" y="135.0" />
+      <point x="699.5000000000001" y="135.0" />
+      <point x="-49.66666666666663" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.MacGUIFactory" target="com.homelearning.creational.abstract_factory.gui.mac.WindowMac">
+      <point x="33.125" y="-51.5" />
+      <point x="389.64973958333337" y="298.0" />
+      <point x="628.3763020833334" y="298.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.gui.mac.ButtonMac" target="com.homelearning.creational.abstract_factory.gui.Button">
+      <point x="0.0" y="-27.5" />
+      <point x="74.5" y="105.0" />
+      <point x="259.1458333333334" y="105.0" />
+      <point x="-49.666666666666686" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.creational.abstract_factory.factory.MacGUIFactory" target="com.homelearning.creational.abstract_factory.gui.mac.ButtonMac">
+      <point x="-99.375" y="-51.5" />
+      <point x="257.14973958333337" y="318.0" />
+      <point x="74.5" y="318.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9724535554131967" x="770.5" y="285.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
