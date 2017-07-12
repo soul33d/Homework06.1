@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.homelearning.structural.bridge</OriginalElement>
+  <nodes>
+    <node x="52.0" y="355.0">com.homelearning.structural.bridge.bill.TerminalBill</node>
+    <node x="37.0" y="460.0">com.homelearning.structural.bridge.BridgeDemo</node>
+    <node x="0.0" y="153.0">com.homelearning.structural.bridge.bill.Bill</node>
+    <node x="81.5" y="0.0">com.homelearning.structural.bridge.Currency</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.homelearning.structural.bridge.BridgeDemo" target="com.homelearning.structural.bridge.bill.TerminalBill">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="27.5" />
+    </edge>
+    <edge source="com.homelearning.structural.bridge.bill.TerminalBill" target="com.homelearning.structural.bridge.bill.Bill">
+      <point x="0.0" y="-27.5" />
+      <point x="0.0" y="76.0" />
+    </edge>
+    <edge source="com.homelearning.structural.bridge.bill.Bill" target="com.homelearning.structural.bridge.Currency">
+      <point x="0.0" y="-76.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="136.0" y="257.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
